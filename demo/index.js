@@ -32,7 +32,7 @@ const newHTMLClip = new MyPlugin.Track(
   {
     name:"Electronic-Violin_16057",
     startFrom: 0,
-    // duration: 2000,
+    duration: 2000,
     fadeIn: false,
     fadeOut: false
   },
@@ -41,22 +41,12 @@ const newHTMLClip = new MyPlugin.Track(
     hiatus: 1000,
     delay: 1000,
     id: "myClip"
-    
   }
 );
 
-const effect = new MotorCortex.AudioEffect({
-  animatedAttrs: {
-      pan: 1,
-      gain: 0
-  }
-  }, {
-  selector: "~#an-id-must-be-unique",
-  duration: 3000
-});
 
 
-// newHTMLClip.addIncident(effect,15000)
+
 clip.addIncident(newHTMLClip, 0);
 
 

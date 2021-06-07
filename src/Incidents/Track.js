@@ -8,7 +8,7 @@ export default class MyHTMLClip extends AudioClip {
       {
         src:
           `https://sounds.ams3.digitaloceanspaces.com/sounds_storage/public/Guitar2_6100.mp3`,
-        id: "an-id-must-be-unique",
+        id: "track-id",
         base64: false,
       },
     ];
@@ -17,7 +17,7 @@ export default class MyHTMLClip extends AudioClip {
   buildTree() {
     const duration = this.attrs.duration  || +this.attrs.name.split("_")[1] ;
     const songPlayback = new AudioPlayback({
-      selector: "~#an-id-must-be-unique",
+      selector: "~#track-id",
       startFrom: !this.attrs.startFrom ? 0 : this.attrs.startFrom ,
       duration: duration
     });
@@ -30,7 +30,7 @@ export default class MyHTMLClip extends AudioClip {
           gain: 0
         }
       }, {
-        selector: "~#an-id-must-be-unique",
+        selector: "~#track-id",
         duration: Math.floor(duration * 0.25)
       });
       this.addIncident(fadeIn, 0);
@@ -45,7 +45,7 @@ export default class MyHTMLClip extends AudioClip {
           gain: 1
         }
       }, {
-        selector: "~#an-id-must-be-unique",
+        selector: "~#track-id",
         duration: Math.floor(duration * 0.25)
       });
       this.addIncident(fadeOut, duration -(duration * 0.25));

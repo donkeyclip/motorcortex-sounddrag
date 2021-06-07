@@ -1,7 +1,7 @@
 {
-  "name": "my-plugin-name",
+  "name": "@kissmybutton/motorcortex-sounddrag",
   "version": "0.0.1",
-  "description": "Your plugin description here",
+  "description": "The motorcortex-sounddrag is a plugin that allows the user to easily add music or sound-effects to your clips",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "browser": "dist/bundle.umd.js",
