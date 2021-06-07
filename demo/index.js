@@ -32,9 +32,9 @@ const newHTMLClip = new MyPlugin.Track(
   {
     name:"Electronic-Violin_16057",
     startFrom: 0,
-    duration: 2000,
-    fadeIn: false,
-    fadeOut: false
+    duration: 6000,
+    fadeIn: true,
+    fadeOut: true
   },
   {
     repeats: 3,

@@ -7,7 +7,7 @@ export default class MyHTMLClip extends AudioClip {
     return [
       {
         src:
-          `https://sounds.ams3.digitaloceanspaces.com/sounds_storage/public/Guitar2_6100.mp3`,
+          `https://sounds.ams3.digitaloceanspaces.com/sounds_storage/public/${this.attrs.name}.mp3`,
         id: "track-id",
         base64: false,
       },
