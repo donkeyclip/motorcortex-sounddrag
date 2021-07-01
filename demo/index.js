@@ -1,8 +1,7 @@
 import MotorCortex from "@kissmybutton/motorcortex";
+import Player from "@kissmybutton/motorcortex-player";
 import MyPluginDefinition from "../dist/bundle.umd";
 const MyPlugin = MotorCortex.loadPlugin(MyPluginDefinition);
-
-import Player from "@kissmybutton/motorcortex-player";
 
 const clip = new MotorCortex.HTMLClip({
   html: `<div class="container">
@@ -30,24 +29,20 @@ const clip = new MotorCortex.HTMLClip({
 
 const newHTMLClip = new MyPlugin.Track(
   {
-    name:"Electronic-Violin_16057",
+    name: "Electronic-Violin_16057",
     startFrom: 0,
     duration: 6000,
     fadeIn: true,
-    fadeOut: true
+    fadeOut: true,
   },
   {
     repeats: 3,
     hiatus: 1000,
     delay: 1000,
-    id: "myClip"
+    id: "myClip",
   }
 );
 
-
-
-
 clip.addIncident(newHTMLClip, 0);
-
 
 const player = new Player({ clip });
