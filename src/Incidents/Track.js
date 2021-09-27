@@ -1,8 +1,4 @@
-import {
-  AudioClip,
-  AudioEffect,
-  AudioPlayback,
-} from "@kissmybutton/motorcortex";
+import { AudioClip, AudioEffect, AudioPlayback } from "@donkeyclip/motorcortex";
 
 export default class MyHTMLClip extends AudioClip {
   get audioSources() {

@@ -1,6 +1,6 @@
-import MotorCortex from "@kissmybutton/motorcortex";
-import Player from "@kissmybutton/motorcortex-player";
-import MyPluginDefinition from "../dist/bundle.umd";
+import MotorCortex from "@donkeyclip/motorcortex";
+import Player from "@donkeyclip/motorcortex-player";
+import MyPluginDefinition from "../dist/motorcortex-sounddrag.umd";
 const MyPlugin = MotorCortex.loadPlugin(MyPluginDefinition);
 
 const clip = new MotorCortex.HTMLClip({
@@ -45,4 +45,4 @@ const newHTMLClip = new MyPlugin.Track(
 
 clip.addIncident(newHTMLClip, 0);
 
-const player = new Player({ clip });
+new Player({ clip });
