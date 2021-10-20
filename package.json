@@ -68,7 +68,7 @@
     "@rollup/plugin-node-resolve": "^13.0.5",
     "@size-limit/preset-big-lib": "^6.0.3",
     "babel-loader": "8.2.2",
-    "concurrently": "^6.2.2",
+    "concurrently": "6.3.0",
     "core-js": "^3.18.3",
     "css-loader": "6.3.0",
     "eslint": "7.32.0",
