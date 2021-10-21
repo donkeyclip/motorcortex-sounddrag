@@ -1,6 +1,6 @@
 import MotorCortex from "@donkeyclip/motorcortex";
 import Player from "@donkeyclip/motorcortex-player";
-import MyPluginDefinition from "../dist/motorcortex-sounddrag.umd";
+import MyPluginDefinition from "../dist/motorcortex-sounddrag.esm";
 const MyPlugin = MotorCortex.loadPlugin(MyPluginDefinition);
 
 const clip = new MotorCortex.HTMLClip({
