@@ -5,10 +5,10 @@
   "main": "dist/motorcortex-sounddrag.cjs.js",
   "module": "dist/motorcortex-sounddrag.esm.js",
   "browser": "dist/motorcortex-sounddrag.umd.js",
-  "author": "",
+  "author": "Donkeyclip (donkeyclip.com) <opensource@donkeyclip.com>",
   "repository": {
     "type": "git",
-    "url": "Your git repo here"
+    "url": "https://github.com/donkeyclip/motorcortex-sounddrag"
   },
   "license": "MIT",
   "engines": {
