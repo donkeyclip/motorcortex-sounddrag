@@ -1891,7 +1891,7 @@ var MyHTMLClip = /*#__PURE__*/function (_AudioClip) {
 }(AudioClip);
 
 var name = "@donkeyclip/motorcortex-sounddrag";
-var version = "0.0.1";
+var version = "1.0.0";
 
 var index = {
   npm_name: name,
