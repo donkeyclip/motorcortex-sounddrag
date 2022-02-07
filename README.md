@@ -23,12 +23,25 @@
 # Intro / Features
 
 The MotorCortex-SoundDrag is a plugin that allows you to add music or sound effects easily to your clips.
-Go to donkeyclip.sounddrag.com find the sound you like to use from a big list of license-free sounds and copy the name of the sound. Then create a new track incident and use the copied name as the value for the attribute key name and you have done.
+Go to [sounds.donkeyclip.com](https://sounds.donkeyclip.com/) find the sound you like to use from a big list of license-free sounds and copy the name of the sound. Then create a new track incident and use the copied name as the value for the attribute key name and you have done.
 
 
 # Getting Started
 ## Installation
+
+```bash
+$ npm install --save @donkeyclip/motorcortex-sounddrag
+# OR
+$ yarn add @donkeyclip/motorcortex-sounddrag
+```
+
 ## Importing and loading
+
+```javascript
+import { loadPlugin } from "@donkeyclip/motorcortex/";
+import SoundDragPlugin from "@donkeyclip/motorcortex-sounddrag";
+const SoundDrag = loadPlugin(SoundDragPlugin);
+```
 
 # Creating Incidents
 ## Track
