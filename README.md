@@ -18,7 +18,7 @@
 
 ## Demo
 
-[Check it out here]
+[Check it out here](https://donkeyclip.github.io/motorcortex-sounddrag/demo/)
 
 # Intro / Features
 
