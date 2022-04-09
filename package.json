@@ -1,6 +1,6 @@
 {
   "name": "@donkeyclip/motorcortex-sounddrag",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The motorcortex-sounddrag is a plugin that allows the user to easily add music or sound-effects to your clips",
   "main": "dist/motorcortex-sounddrag.cjs.js",
   "module": "dist/motorcortex-sounddrag.esm.js",

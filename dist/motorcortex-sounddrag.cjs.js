@@ -55,7 +55,7 @@ class MyHTMLClip extends motorcortex.AudioClip {
 }
 
 var name = "@donkeyclip/motorcortex-sounddrag";
-var version = "1.0.0";
+var version = "1.1.0";
 
 var index = {
   npm_name: name,
