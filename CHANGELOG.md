@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/donkeyclip/motorcortex-sounddrag/compare/v1.0.0...v1.1.0) (2022-04-09)
+
+
+### Features
+
+* drop explorer 11 support ([3b64eca](https://github.com/donkeyclip/motorcortex-sounddrag/commit/3b64eca489cd9e09ede4a62fdcd5362a931625cb))
+* update compatibility with motorcortex ([9a70580](https://github.com/donkeyclip/motorcortex-sounddrag/commit/9a7058029a2c809e4eda94dd5b69601e29ea882d))
+
 ## 1.0.0 (2022-02-06)
 
 
