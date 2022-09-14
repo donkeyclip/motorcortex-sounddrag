@@ -3,7 +3,7 @@ import { AudioClip, AudioPlayback, AudioEffect } from '@donkeyclip/motorcortex';
 class MyHTMLClip extends AudioClip {
   get audioSources() {
     return [{
-      src: "https://sounds.ams3.cdn.digitaloceanspaces.com/sounds_storage/public/".concat(this.attrs.name, ".mp3"),
+      src: `https://sounds.ams3.cdn.digitaloceanspaces.com/sounds_storage/public/${this.attrs.name}.mp3`,
       id: "track-id",
       base64: false
     }];
