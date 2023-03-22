@@ -10,7 +10,6 @@ class MyHTMLClip extends motorcortex.AudioClip {
       base64: false
     }];
   }
-
   buildTree() {
     const duration = this.attrs.duration || +this.attrs.name.split("_")[1];
     const songPlayback = new motorcortex.AudioPlayback({
@@ -18,7 +17,6 @@ class MyHTMLClip extends motorcortex.AudioClip {
       startFrom: !this.attrs.startFrom ? 0 : this.attrs.startFrom,
       duration: duration
     });
-
     if (this.attrs.fadeIn === true) {
       const fadeIn = new motorcortex.AudioEffect({
         animatedAttrs: {
@@ -33,7 +31,6 @@ class MyHTMLClip extends motorcortex.AudioClip {
       });
       this.addIncident(fadeIn, 0);
     }
-
     if (this.attrs.fadeOut === true) {
       const fadeOut = new motorcortex.AudioEffect({
         animatedAttrs: {
@@ -48,10 +45,8 @@ class MyHTMLClip extends motorcortex.AudioClip {
       });
       this.addIncident(fadeOut, Math.floor(duration * 0.75));
     }
-
     this.addIncident(songPlayback, 0);
   }
-
 }
 
 var name = "@donkeyclip/motorcortex-sounddrag";
