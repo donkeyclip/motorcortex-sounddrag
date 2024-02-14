@@ -70,7 +70,7 @@
     "babel-loader": "8.3.0",
     "concurrently": "7.6.0",
     "core-js": "3.36.0",
-    "css-loader": "6.8.1",
+    "css-loader": "6.10.0",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.10.0",
     "eslint-config-standard": "16.0.3",
